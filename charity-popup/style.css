@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+
+body {
+  background-color: #fff5f3;
+  margin: 0;
+  font-family: 'Yantramanav', sans-serif;
+  /* font-family: 'Almarai', sans-serif; */
+  font-size: 1.2rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.card {
+  padding: 50px 35px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(77, 77, 77, 0.1);
+  max-width: 450px;
+}
+
+.card-white {
+  background-color: white;
+  color: #242e4c;
+}
+
+.card-red {
+  background-color: #ff3d44;
+}
+
+.card-shadow {
+  padding: 50px;
+  border-radius: 70px;
+  position: relative;
+  top: -295px;
+  right: -60px;
+  float: right;
+  width: 250px;
+  height: 250px;
+  z-index: -1;
+}
+
+.card-float-icon img {
+  max-width: 130px;
+}
+
+.card-float-icon {
+  max-width: 130px;
+  position: relative;
+  top: -100px;
+  display: inline;
+}
+
+.card-header {
+  height: 30px;
+}
+
+.btn {
+  min-width: 270px;
+  padding: 15px;
+}
+
+.btn-brown {
+  background-color: #37312c;
+  color: white;
+  border: 0;
+  border-radius: 7px;
+  font-size: 18px;
+  box-shadow: 0 5px 10px #37312c75;
+}
+
+.btn-close {
+  border: none;
+  background: none;
+  font-size: 64px;
+  color: #d3d5db;
+  cursor: pointer;
+  float: inline-end;
+  right: -10px;
+  top: -50px;
+  position: relative;
+}
